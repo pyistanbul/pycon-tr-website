@@ -1,0 +1,586 @@
+/* ===== Primary Styles ======= */
+
+
+/* 
+* Tools
+*******************/
+
+html {-webkit-font-smoothing: antialiased;}
+img{display: block;max-width: 100%;height: auto;}
+
+/* Bootstrap Modal Scrollbar Push Fix */
+.modal {overflow-y: auto;}
+.modal-open {overflow: auto;}
+
+/* 
+* Layout
+*******************/
+
+body{}
+
+.description{padding: 200px 0 240px;background: url(../images/bg.jpg) no-repeat center center;background-size: cover;}
+.description .container{
+    /* padding-left: 30px; */
+}
+.description h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fdd140;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    margin: 0 0 14px 0;
+}
+.description p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+.description p a{
+    color: #fdd140;
+}
+
+.the-bar{
+    background: #FDD140;
+    padding: 25px 0 20px;
+    height: auto;
+}
+.the-bar .logo-holder{
+    margin-top: -87px;
+    /* width: 300px; */
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    margin: -87px 0 40px 0;
+}
+.the-bar .logo-holder img{}
+.the-bar .info-holder{
+}
+.the-bar .info-holder h2{
+    margin: 30px 0;
+}
+.the-bar .info-holder h2 span{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #232323;
+    letter-spacing: 0;
+}
+.the-bar .info-holder h2 i{
+    background: #376FA0;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0px 62px -3px;
+}
+.the-bar .info-holder h2 span:last-child{}
+.the-bar .info-holder p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #232323;
+    letter-spacing: 0;
+    margin: 0 0 0;
+}
+.the-bar .info-holder form{}
+.the-bar .info-holder .form-group{
+    position: relative;
+    width: 100%;
+    margin-bottom: 0;
+}
+.the-bar .info-holder .form-control{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #282828;
+    letter-spacing: 0;
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 63px;
+    width: 100%;
+    border: none;
+    box-shadow: none !important;
+    padding-right: 230px;
+}
+.the-bar .info-holder form .submit-btn{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    border-radius: 4px;
+    background: #376FA0;
+    border: none;
+    width: 210px;
+    height: 51px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+.socials{
+    /* margin-bottom: 10px; */
+    text-align: right;
+    margin: 45px 0 0 0;
+}
+.socials .mail{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #376FA0;
+    letter-spacing: 0;
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 51px;
+    display: inline-block;
+    width: 157px;
+    text-align: center;
+    padding: 14px 0;
+    margin-right: 10px;
+    vertical-align: top;
+    text-decoration: none !important;
+}
+.socials .mail img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: -1px 0 0 6px;
+}
+.socials .social{
+    width: 51px;
+    height: 51px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+}
+.socials .social:last-child{margin-right: 0;}
+.socials .social img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mce-responses{
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+}
+#mce-responses .response{
+    border: 2px solid #376fa0;
+    background: #fff;
+    padding: 5px 12px;
+    border-radius: 4px;}
+#mc_embed_signup div.mce_inline_error{
+    display: block;
+    border: 2px solid #6B0505;
+    background: #fff !important;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    margin: 5px 0 0 0 !important;
+    color: #000 !important;
+}
+
+header{
+    background: #FFFFFF;
+    box-shadow: 0 10px 15px 0px rgba(0, 0, 0, .55);
+    padding: 20px 0;
+    position: relative;
+    z-index: 5;
+}
+header .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+header .logo img{
+    width: 115px;
+}
+header .titles{display: inline-block;vertical-align: middle;padding-left: 20px;}
+header .titles h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #232323;
+    letter-spacing: 0;
+    margin: 0;
+}
+header .titles h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #232323;
+    letter-spacing: 0;
+    margin: 5px 0 0 0;
+}
+header nav{
+    float: right;
+    margin: 53px 0;
+}
+header nav a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #376FA0 !important;
+    letter-spacing: 0;
+    margin-right: 30px;
+    text-decoration: none !important;
+}
+header nav a:last-child{
+    margin-right: 0;
+}
+
+.the-venue{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 20px solid #FDD140;}
+.module-content{}
+.module-content h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    margin: 0 0 20px 0;
+}
+.module-content p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+.module-content a{}
+.module-content .btn{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    min-width: 210px;
+    background: #376FA0;
+    border-radius: 4px;
+    padding: 16px 20px;
+    border: 4px solid #FFFFFF;
+    margin: 20px 10px 0px 0;
+}
+.take-part{background: url(../images/apply-bg.png) no-repeat center center;background-size: cover;padding: 120px 0;}
+.the-venue .venue{}
+.the-venue .venue img{
+    width: 100%;
+    border: 4px solid #fff;
+    border-radius: 4px;
+}
+.the-venue .venue span{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    text-align: center;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+footer{
+    background: #fdd140;
+    box-shadow: 0 3px 14px 0 rgba(0,0,0,0.07);
+    padding: 20px 0;
+}
+footer .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+footer .logo img{
+    width: 115px;
+}
+footer .titles{display: inline-block;vertical-align: middle;padding-left: 20px;}
+footer .titles h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #232323;
+    letter-spacing: 0;
+    margin: 0;
+}
+footer .titles h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #232323;
+    letter-spacing: 0;
+    margin: 5px 0 0 0;
+}
+footer nav{
+    float: right;
+    margin: 23px 0 0;
+}
+footer nav a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #232323 !important;
+    letter-spacing: 0;
+    margin-right: 30px;
+    text-decoration: none !important;
+}
+footer nav a:last-child{
+    margin-right: 0;
+}
+
+.text-content-header{
+    background: url(../images/bg.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 120px 0;
+}
+.text-content-header h2{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+.text-content{
+    padding-bottom: 75px;
+}
+.text-content h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #232323;
+    letter-spacing: 0;
+    line-height: 1.35em;
+}
+.text-content p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #232323;
+    letter-spacing: 0;
+    line-height: 1.35em;
+}
+.text-content .full-image{
+    border-radius: 4px;
+    border: 4px solid #fdd140;
+    margin: 10px 0;
+}
+
+
+/* 
+* Media Queries
+*******************/
+
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+    .the-venue .pull-right{float:none !important;}
+    .the-venue .venue img{}
+    .the-venue .venue{
+    width: 500px;
+    max-width: 100%;
+    margin: 40px 0 0 0;
+}
+    .the-bar .pull-right{float:none !important;}
+    .the-bar .info-holder{
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+    .the-bar .logo-holder{
+    width: 280px;
+    margin: -87px auto 0px auto;
+}
+    .the-bar .logo-holder img{}
+    .the-bar{
+    /* position: static; */
+    /* margin: 100px 0 0 0; */
+}
+    .description .container{
+    padding: 50px 0;
+}
+    .description p{
+    padding: 0;
+    margin-bottom: 0;
+}
+    .the-bar .info-holder h2{
+    text-align: center;
+    margin: 20px 0 25px;
+}
+    .the-bar .info-holder p{
+    /* max-width: unset; */
+    /* text-align: center; */
+    /* max-width: 90%; */
+    /* width: 445px; */
+    /* margin: 0 auto 25px; */
+}
+    .the-bar .info-holder .form-group{
+    width: auto;
+}
+    .the-bar .info-holder .form-control{
+    width: 100%;
+}
+    .the-bar .info-holder form .submit-btn{}
+    .socials{}
+    .socials .mail{}
+    .socials .social{}
+    .socials .social:last-child{}
+
+}
+
+@media only screen and (max-width : 768px) {
+    footer .socials-holder{float: none !important;text-align: center;}
+    footer .socials{
+    text-align: center;
+}
+    footer nav{
+    float: none;
+    text-align: center;
+}
+    .module-content h2{
+    font-size: 24px;
+}
+    .module-content p{
+    font-size: 16px;
+}
+    .the-venue{padding: 75px 20px;}
+    .take-part{padding: 75px 20px;}
+
+
+    .description{padding: 75px 0;}
+
+    header .logo{
+    padding-left: 20px;
+}
+    header .titles{}
+    header nav{
+    float: none;
+    text-align: center;
+    margin: 20px 0 0;
+}
+    header nav a{
+    font-size: 16px;
+}
+
+    .the-bar .info-holder{
+    padding: 0 20px;
+}
+    .the-bar .logo-holder{
+    width: 190px;
+}
+    .the-bar .logo-holder img{}
+    .the-bar{
+    
+}
+    .description .container{
+   padding: 50px 20px;
+}
+    .description p{
+   font-size: 16px;
+}
+    .the-bar .info-holder h2{
+   
+}
+    .the-bar .info-holder p{
+   
+}
+    .the-bar .info-holder .form-group{
+    
+}
+    .the-bar .info-holder .form-control{
+    padding-right: 10px;
+}
+    .the-bar .info-holder form .submit-btn{
+    position: static;
+    width: 100%;
+    margin: 5px 0;
+}
+    .socials{}
+    .socials .mail{}
+    .socials .social{}
+    .socials .social:last-child{}
+    .the-bar .info-holder h2 i{
+    display: none;
+}
+    .the-bar .info-holder h2 span{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+    .the-bar .info-holder h2 span:last-child{
+    font-size: 20px;
+}
+    .description h2{
+    font-size: 20px;
+}
+    .text-content-header{
+    padding: 70px 0;
+}
+    .text-content{padding: 0 20px 40px 20px;}
+    .text-content p{
+    font-size: 16px;
+}
+    .text-content h3{
+    font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width : 480px) {
+    
+    header .titles, footer .titles{
+    padding-left: 10px;
+}
+    header .logo img, footer .logo img{
+    width: 80px;
+}
+    header .titles h1, footer .titles h1{
+    font-size: 18px;
+}
+    header .titles h2, footer .titles h2{
+    font-size: 16px;
+}
+    .the-venue .venue{margin:40px auto 0;}
+    .the-bar .info-holder p{
+    font-size: 16px;
+    max-width: 100%;
+}
+    .socials{
+    text-align: center;
+}
+    .socials .mail{
+    width: 90%;
+    margin: 10px 0;
+}
+    .socials .social{}
+    .socials .social:last-child{}
+
+
+}
+
+@media only screen and (max-width : 320px) {
+    
+}
+
+
+
+
+
+
