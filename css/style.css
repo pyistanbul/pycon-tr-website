@@ -238,6 +238,7 @@ header nav a:last-child{
 }
 
 .the-venue{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 20px solid #FDD140;}
+.become-sponsor{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;}
 .module-content{}
 .module-content h2{
     font-family: 'Nunito', sans-serif;
@@ -270,7 +271,7 @@ header nav a:last-child{
     border: 4px solid #FFFFFF;
     margin: 20px 10px 0px 0;
 }
-.take-part{background: url(../images/apply-bg.png) no-repeat center center;background-size: cover;padding: 120px 0;}
+.take-part{background: url(../images/apply-bg.png) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 20px solid #FDD140;}
 .the-venue .venue{}
 .the-venue .venue img{
     width: 100%;
