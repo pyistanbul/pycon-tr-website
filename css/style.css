@@ -448,7 +448,120 @@ footer nav a:last-child{
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 }
 
-
+.sponsors{background: url(../images/sponsor-bg.jpg) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;}
+.sponsors .sponsor-list{}
+.sponsors .sponsor{
+}
+.sponsors .sponsor h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    text-align: center;
+}
+.sponsors .sponsor p{
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    text-align: left;
+}
+.sponsors .tier-1{
+    margin: 80px 0;
+}
+.sponsors .tier-2{
+    font-size: 0;
+    margin: 80px 0;
+}
+.sponsors .tier-3{
+    font-size: 0;
+    margin: 80px 0 45px;
+    text-align: center;
+}
+.sponsors .tier-4{
+    text-align: center;
+    font-size: 0;
+}
+.sponsors .tier-1 h3{
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+.sponsors .tier-2 h3{
+    font-size: 20px;
+    margin: 14px 0 7px;
+}
+.sponsors .tier-3 h3{
+    font-size: 14px;
+    margin: 10px 0 0;
+}
+.sponsors .tier-4 h3{}
+.sponsors .tier-1 p{
+}
+.sponsors .tier-2 p{font-size: 13px;}
+.sponsors .tier-1 .sponsor{
+    padding-right: 30px;
+}
+.sponsors .tier-2 .sponsor{
+    width: 20%;
+    display: inline-block;
+    padding-right: 15px;
+}
+.sponsors .tier-3 .sponsor{
+    width: 75px;
+    display: inline-block;
+    margin: 0 18px 18px;
+}
+.sponsors .tier-4 .sponsor{
+    display: inline-block;
+    margin: 0 10px 20px;
+}
+.sponsors .logo-holder{
+    border: 2px solid #FDD140;
+    border-radius: 35px;
+    margin: 0 auto;
+    box-shadow: 0 9px 8px -9px #FDD140;
+    box-shadow: 0 17px 19px -18px #fdd140c2, 0px 12px 11px -7px #000000a8;
+    background: #0000005e;
+}
+.sponsors .logo-holder img{
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 85%;
+    max-height: 85%;
+}
+.sponsors .tier-1 .logo-holder{
+    width: 140px;
+    height: 140px;
+}
+.sponsors .tier-2 .logo-holder{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 9px 8px -9px #fdd1407a;
+    border-radius: 24px;
+}
+.sponsors .tier-3 .logo-holder{
+    border: none;
+    background: #d2d2d2;
+    width: 75px;
+    height: 75px;
+    border: 2px solid #376FA0;
+    box-shadow: 0 9px 8px -8px #376FA0;
+    border-radius: 14px;
+}
+.sponsors .tier-4 .logo-holder{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #376FA0;
+    box-shadow: 0 9px 8px -8px #376fa073;
+    background: #d2d2d2;
+}
+.sponsors .tier-3 .logo-holder img{
+}
+.sponsors .tier-4 .logo-holder img{}
 /* 
 * Media Queries
 *******************/
@@ -458,10 +571,27 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 1200px) {
+    .sponsors .tier-2 .sponsor{
+    width: 33%;
+    margin-bottom: 30px;
+    padding-right: 25px;
+}
+    .sponsors .tier-2{text-align: center;}
 
 }
 
 @media only screen and (max-width : 992px) {
+    .sponsors .tier-1 .sponsor{
+    padding: 0;
+    margin-bottom: 60px;
+}
+    .sponsors .tier-1{}
+    .sponsors .tier-1 .logo-holder{}
+    .sponsors .tier-1 h3{}
+    .sponsors .tier-1 p{
+    max-width: 520px;
+    margin: 0 auto;
+}
     .container{width: 100%;padding: 0 20px;}
     header .logo img{
     width: 96px;
@@ -569,6 +699,20 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 768px) {
+
+    .sponsors .tier-1{
+    margin: 40px 0 30px;
+}
+    .sponsors .tier-2{
+    margin: 30px 0 0;
+}
+    .sponsors .tier-3{
+    margin: 10px 0 20px;
+}
+    .sponsors .tier-4{}
+    .sponsors .tier-2 .sponsor{
+    width: 50%;
+}
     .become-sponsor{padding: 75px 0;}
     .keynote-speakers{padding: 75px 0;}
     .keynote-speakers .speakers{margin: 45px 0;}
@@ -678,6 +822,13 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 480px) {
+    .sponsors .tier-2 h3, .sponsors .tier-1 h3{}
+    .sponsors .tier-2 .logo-holder img, .sponsors .tier-1 .logo-holder img{}
+    .sponsors .tier-2 .logo-holder, .sponsors .tier-1 .logo-holder{}
+    .sponsors .tier-2 .sponsor{
+    width: 100%;
+    padding-right: 0;
+}{}
     footer nav a{
     display: block;
     font-size: 14px;
