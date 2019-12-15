@@ -6,6 +6,11 @@ MAIN = {
 		    e.preventDefault();
 		});
 
+		$('header .nav-trigger').click(function(){
+			$('header nav').slideToggle('fast');
+			$('header .nav-trigger').toggleClass('opened');
+		})
+
 	}
 }
 
