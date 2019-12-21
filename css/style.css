@@ -262,7 +262,7 @@ header .nav-trigger i:after{
 header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: absolute;background: #376FA0;width:100%;height: 4px;border-radius: 40px;display: block;transition: all .25s ease;}
 
 .the-venue{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
-.become-sponsor{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;}
+.become-sponsor{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
 .get-tickets{background: url(../images/ticket-bg.jpg) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
 .financial-aid{background: url(../images/financial-bg.jpg) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
 .module-content{}
@@ -569,6 +569,9 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 768px) {
+    .become-sponsor{padding: 75px 0;}
+    .keynote-speakers{padding: 75px 0;}
+    .keynote-speakers .speakers{margin: 45px 0;}
     .keynote-speakers .speaker{
     margin-bottom: 40px;
 }
@@ -594,8 +597,8 @@ footer nav a:last-child{
     .module-content p{
     font-size: 16px;
 }
-    .the-venue{padding: 75px 20px;}
-    .take-part{padding: 75px 20px;}
+    .the-venue{padding: 75px 0px;}
+    .take-part{padding: 75px 0px;}
 
 
     .description{padding: 75px 0;}
