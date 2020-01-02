@@ -84,7 +84,7 @@ body{font-family: 'Nunito', sans-serif;}
     font-size: 22px;
     color: #232323;
     letter-spacing: 0;
-    margin: 0 0 0;
+    margin: 18px 0;
 }
 .the-bar .info-holder form{}
 .the-bar .info-holder .form-group{
@@ -396,18 +396,20 @@ footer nav a:last-child{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #232323;
+    color: hsla(208, 49%, 40%, 1) !important;
     letter-spacing: 0;
     line-height: 1.35em;
 }
 .text-content p, li{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: #232323;
     letter-spacing: 0;
     line-height: 1.35em;
+    margin-bottom: 20px;
 }
+.text-content p a, .text-content li a{color: #376FA0 !important; text-decoration: underline !important;}
 .text-content .full-image{
     border-radius: 4px;
     border: 4px solid #fdd140;
@@ -468,7 +470,7 @@ footer nav a:last-child{
     text-align: left;
 }
 .sponsors .tier-1{
-    margin: 80px 0;
+    margin: 60px 0 80px;
 }
 .sponsors .tier-2{
     font-size: 0;
@@ -482,6 +484,12 @@ footer nav a:last-child{
 .sponsors .tier-4{
     text-align: center;
     font-size: 0;
+    margin: 80px 0 45px;
+}
+.sponsors .tier-title{
+    text-align: center;
+    color: #FDD140;
+    margin: 20px 0 40px 0;
 }
 .sponsors .tier-1 h3{
     font-size: 24px;
@@ -496,16 +504,15 @@ footer nav a:last-child{
     margin: 10px 0 0;
 }
 .sponsors .tier-4 h3{}
-.sponsors .tier-1 p{
-}
-.sponsors .tier-2 p{font-size: 13px;}
+.sponsors .tier-1 p{padding: 0 25px;}
+.sponsors .tier-2 p{font-size: 13px;padding: 0 15px;}
 .sponsors .tier-1 .sponsor{
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 .sponsors .tier-2 .sponsor{
     width: 20%;
     display: inline-block;
-    padding-right: 15px;
+    /* padding-right: 15px; */
 }
 .sponsors .tier-3 .sponsor{
     width: 75px;
@@ -562,6 +569,10 @@ footer nav a:last-child{
 .sponsors .tier-3 .logo-holder img{
 }
 .sponsors .tier-4 .logo-holder img{}
+
+.text-content .container{max-width: 1000px;}
+.text-content h4{font-weight: 600;}
+
 /* 
 * Media Queries
 *******************/
@@ -571,6 +582,7 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 1200px) {
+    .the-bar .info-holder p{margin: 0;}
     .sponsors .tier-2 .sponsor{
     width: 33%;
     margin-bottom: 30px;
@@ -679,10 +691,10 @@ footer nav a:last-child{
 }
     .the-bar .info-holder p{
     /* max-width: unset; */
-    /* text-align: center; */
+    text-align: center;
     /* max-width: 90%; */
     /* width: 445px; */
-    /* margin: 0 auto 25px; */
+    margin: 0px auto 20px;
 }
     .the-bar .info-holder .form-group{
     width: auto;
@@ -776,7 +788,7 @@ footer nav a:last-child{
    
 }
     .the-bar .info-holder p{
-   
+   margin-bottom: 10px;
 }
     .the-bar .info-holder .form-group{
     
