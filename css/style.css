@@ -452,8 +452,7 @@ footer nav a:last-child{
 
 .sponsors{background: url(../images/sponsor-bg.jpg) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;}
 .sponsors .sponsor-list{}
-.sponsors .sponsor{
-}
+.sponsors .sponsor{text-decoration: none !important;}
 .sponsors .sponsor h3{
     font-weight: 700;
     font-size: 24px;
