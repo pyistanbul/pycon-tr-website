@@ -283,7 +283,7 @@ header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: a
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
     margin: 0 0 20px 0;
 }
-.module-content p{
+.module-content p, .module-content li{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -409,7 +409,7 @@ footer nav a:last-child{
     letter-spacing: 0;
     line-height: 1.35em;
 }
-.text-content p, li{
+.text-content p, .text-content li{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 20px;
