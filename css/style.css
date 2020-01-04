@@ -262,7 +262,7 @@ header .nav-trigger i:after{
 header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: absolute;background: #376FA0;width:100%;height: 4px;border-radius: 40px;display: block;transition: all .25s ease;}
 
 .the-venue{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
-.become-sponsor{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
+.become-sponsor{background: url(../images/become-sponsor-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
 .get-tickets{background: url(../images/ticket-bg.jpg) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
 .financial-aid{background: url(../images/financial-bg.jpg) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
 .module-content{}
@@ -452,7 +452,7 @@ footer nav a:last-child{
 
 .sponsors{background: url(../images/sponsor-bg.jpg) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;}
 .sponsors .sponsor-list{}
-.sponsors .sponsor{text-decoration: none !important;}
+.sponsors .sponsor{text-decoration: none !important;vertical-align: top;}
 .sponsors .sponsor h3{
     font-weight: 700;
     font-size: 24px;
@@ -470,10 +470,12 @@ footer nav a:last-child{
 }
 .sponsors .tier-1{
     margin: 60px 0 80px;
+    text-align: center;
 }
 .sponsors .tier-2{
     font-size: 0;
     margin: 80px 0;
+    text-align: center;
 }
 .sponsors .tier-3{
     font-size: 0;
@@ -507,6 +509,9 @@ footer nav a:last-child{
 .sponsors .tier-2 p{font-size: 13px;padding: 0 15px;}
 .sponsors .tier-1 .sponsor{
     /* padding-right: 30px; */
+    display: inline-block;
+    float: none;
+    width: 33%;
 }
 .sponsors .tier-2 .sponsor{
     width: 20%;
@@ -550,7 +555,7 @@ footer nav a:last-child{
 }
 .sponsors .tier-3 .logo-holder{
     border: none;
-    background: #d2d2d2;
+    background: #fff;
     width: 75px;
     height: 75px;
     border: 2px solid #376FA0;
@@ -563,7 +568,7 @@ footer nav a:last-child{
     border-radius: 10px;
     border: 1px solid #376FA0;
     box-shadow: 0 9px 8px -8px #376fa073;
-    background: #d2d2d2;
+    background: #fff;
 }
 .sponsors .tier-3 .logo-holder img{
 }
@@ -571,6 +576,28 @@ footer nav a:last-child{
 
 .text-content .container{max-width: 1000px;}
 .text-content h4{font-weight: 600;}
+
+footer .logos{
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: left;
+}
+footer .logos a{
+    display: inline-block;
+    vertical-align: middle;
+}
+footer .logos a img{
+    width: 100%;
+}
+footer .logos .cmple{
+    width: 300px;
+    padding: 0 15px;
+}
+footer .logos .pyist{
+    width: 160px;
+    padding: 0 15px;
+}
+
 
 /* 
 * Media Queries
