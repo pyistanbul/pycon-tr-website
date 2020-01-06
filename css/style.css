@@ -754,7 +754,9 @@ footer .logos .pyist{
     .socials .mail{}
     .socials .social{}
     .socials .social:last-child{}
-
+    footer .logos{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width : 768px) {
@@ -878,6 +880,9 @@ footer .logos .pyist{
     font-size: 20px;
 }
 
+    footer .logos{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -933,6 +938,9 @@ footer .logos .pyist{
     .socials .social{}
     .socials .social:last-child{}
 
+    footer .logos{
+        text-align: center;
+    }
 
 }
 
