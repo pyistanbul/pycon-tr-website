@@ -339,7 +339,7 @@ footer{
     background: #fdd140;
     -webkit-box-shadow: 0 3px 14px 0 rgba(0,0,0,0.07);
             box-shadow: 0 3px 14px 0 rgba(0,0,0,0.07);
-    padding: 20px 0;
+    padding: 30px 0 40px;
 }
 footer .logo{
     display: inline-block;
@@ -595,7 +595,7 @@ footer nav a:last-child{
 
 .bottom-logos .logos{
     text-align: center;
-    margin: 30px 0 30px;
+    margin: 15px 0 15px;
     /* text-align: left; */
 }
 .bottom-logos .logos a{
