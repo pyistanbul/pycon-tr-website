@@ -551,10 +551,10 @@ footer nav a:last-child{
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    max-width: 85%;
-    max-height: 85%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 75%;
+    max-height: 75%;
 }
 .sponsors .tier-1 .logo-holder{
     width: 140px;
@@ -593,25 +593,28 @@ footer nav a:last-child{
 .text-content .container{max-width: 1000px;}
 .text-content h4{font-weight: 600;}
 
-footer .logos{
+.bottom-logos .logos{
     text-align: center;
-    margin: 40px 0 40px;
-    text-align: left;
+    margin: 30px 0 30px;
+    /* text-align: left; */
 }
-footer .logos a{
+.bottom-logos .logos a{
     display: inline-block;
     vertical-align: middle;
+    position: relative;
 }
-footer .logos a img{
+.bottom-logos .logos a img{
     width: 100%;
 }
-footer .logos .cmple{
-    width: 300px;
-    padding: 0 15px;
+.bottom-logos .logos a:after{position: absolute;top: 50%;right: -5px;background: #cacaca;border-radius: 50px;content:'';width: 7px;height: 7px;}
+.bottom-logos .logos a:last-child:after{display: none;}
+.bottom-logos .logos .cmple{
+    width: 255px;
+    padding: 0 20px;
 }
-footer .logos .pyist{
-    width: 160px;
-    padding: 0 15px;
+.bottom-logos .logos .pyist{
+    width: 150px;
+    padding: 0 20px;
 }
 
 
@@ -886,6 +889,20 @@ footer .logos .pyist{
 }
 
 @media only screen and (max-width : 480px) {
+	.bottom-logos .logos a:after{display: none;}
+	.bottom-logos .logos .cmple{
+    width: 200px;
+    padding: 0 14px;
+    display: block;
+    margin: 0 auto;
+}
+	.bottom-logos .logos .pyist{
+    padding: 0 14px;
+    width: 110px;
+    display: block;
+    margin: 20px auto 0;
+}
+	.bottom-logos .logos a{}
     .sponsors .tier-2 h3, .sponsors .tier-1 h3{}
     .sponsors .tier-2 .logo-holder img, .sponsors .tier-1 .logo-holder img{}
     .sponsors .tier-2 .logo-holder, .sponsors .tier-1 .logo-holder{}
