@@ -589,6 +589,9 @@ footer nav a:last-child{
 .sponsors .tier-3 .logo-holder img{
 }
 .sponsors .tier-4 .logo-holder img{}
+.sponsors .tier-4 h4 {
+    color: #fff;
+}
 
 .text-content .container{max-width: 1000px;}
 .text-content h4{font-weight: 600;}
