@@ -544,7 +544,7 @@ footer nav a:last-child{
             box-shadow: 0 9px 8px -9px #FDD140;
     -webkit-box-shadow: 0 17px 19px -18px #fdd140c2, 0px 12px 11px -7px #000000a8;
             box-shadow: 0 17px 19px -18px #fdd140c2, 0px 12px 11px -7px #000000a8;
-    background: #0000005e;
+    background: #0000005e !important;
 }
 .sponsors .logo-holder img{
     margin: 0 auto;
