@@ -620,6 +620,98 @@ footer nav a:last-child{
     padding: 0 20px;
 }
 
+.schedule{
+    background: linear-gradient(180deg, #0c162b, #00030a);
+    padding: 90px 0;
+    border-bottom: 4px solid #FDD140;
+}
+.schedule .tabs-holder{
+    margin: 40px 0 0 0;
+}
+.schedule .nav-tabs{
+    border-color: #d1ac3321;
+    text-align: center;
+}
+.schedule .nav-tabs li{
+    display: inline-block;
+    float: none;
+}
+.schedule .nav-tabs li.active{}
+.schedule .nav-tabs li.active a{
+    /* color: #000; */
+    /* background: #fff !important; */
+    border-top: none;
+    border-bottom-color: #d1ac33;
+    color: #fff;
+    border-left: none;
+    border-right: none;
+    color: #d1ac33;
+    opacity: 1;
+}
+.schedule .nav-tabs li a{
+    font-size: 24px;
+    color: #fff;
+    background: transparent !important;
+    transition: all .25s ease;
+    border: none;
+    border-bottom: 1px solid transparent;
+    opacity: .75;
+    margin: 0 14px;
+}
+.schedule .nav-tabs li a:hover, .schedule .nav-tabs li a:focus{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: #d1ac33;
+}
+.schedule .tab-content{}
+.schedule .tab-content .tab-pane{
+    margin: 18px 0;
+    font-size: 0;
+}
+.schedule .tab-content .tab-pane.active{}
+.schedule .tab-pane{}
+.schedule .tab-pane .time{
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0 20px;
+    padding-left: 24px;
+    border-bottom: 1px solid #d1ac34;
+    padding-left: 0;
+    padding-bottom: 6px;
+}
+.schedule .tab-pane .talk{
+    padding: 0 16px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+.schedule .tab-pane .content{
+    font-size: 0;
+    padding-right: 24px;
+    margin-bottom: 32px;
+}
+.schedule .tab-pane .content img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.schedule .tab-pane .content .desc{
+    display: inline-block;
+    width: calc(100% - 100px);
+    color: #fff;
+    font-size: 18px;
+    vertical-align: middle;
+    padding-left: 12px;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+.schedule .tab-pane .content .desc span{
+    display: block;
+    margin: 6px 0 0 0;
+    font-weight: 400;
+    font-size: 15px;
+}
 
 /* 
 * Media Queries
@@ -892,20 +984,20 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 480px) {
-	.bottom-logos .logos a:after{display: none;}
-	.bottom-logos .logos .cmple{
+    .bottom-logos .logos a:after{display: none;}
+    .bottom-logos .logos .cmple{
     width: 200px;
     padding: 0 14px;
     display: block;
     margin: 0 auto;
 }
-	.bottom-logos .logos .pyist{
+    .bottom-logos .logos .pyist{
     padding: 0 14px;
     width: 110px;
     display: block;
     margin: 20px auto 0;
 }
-	.bottom-logos .logos a{}
+    .bottom-logos .logos a{}
     .sponsors .tier-2 h3, .sponsors .tier-1 h3{}
     .sponsors .tier-2 .logo-holder img, .sponsors .tier-1 .logo-holder img{}
     .sponsors .tier-2 .logo-holder, .sponsors .tier-1 .logo-holder{}
