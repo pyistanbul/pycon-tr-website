@@ -621,6 +621,8 @@ footer nav a:last-child{
 }
 
 .schedule{
+    background: -webkit-gradient(linear, left top, left bottom, from(#0c162b), to(#00030a));
+    background: -o-linear-gradient(top, #0c162b, #00030a);
     background: linear-gradient(180deg, #0c162b, #00030a);
     padding: 90px 0;
     border-bottom: 4px solid #FDD140;
@@ -652,6 +654,8 @@ footer nav a:last-child{
     font-size: 24px;
     color: #fff;
     background: transparent !important;
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
     transition: all .25s ease;
     border: none;
     border-bottom: 1px solid transparent;
