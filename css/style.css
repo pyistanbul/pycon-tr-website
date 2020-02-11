@@ -740,6 +740,7 @@ footer nav a:last-child{
     .sponsors .tier-1 .sponsor{
     padding: 0;
     margin-bottom: 60px;
+    display: inline;
 }
     .sponsors .tier-1{}
     .sponsors .tier-1 .logo-holder{}
