@@ -18,14 +18,14 @@ img{display: block;max-width: 100%;height: auto;}
 
 body{font-family: 'Nunito', sans-serif;}
 
-.description{padding: 200px 0 240px;background: url(../images/bg.jpg) no-repeat center center;background-size: cover;}
+.description{padding: 200px 0 240px;background: url(../images/bg.jpg) no-repeat center center;background-size: cover;background: -webkit-gradient(linear, left top, left bottom, from(#0c1b2f), to(#123a5d));background: -o-linear-gradient(top, #0c1b2f, #123a5d);background: linear-gradient(180deg, #0c1b2f, #123a5d);}
 .description .container{
     /* padding-left: 30px; */
 }
 .description h2{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 40px;
     color: #fdd140;
     letter-spacing: 0;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
@@ -34,7 +34,7 @@ body{font-family: 'Nunito', sans-serif;}
 .description p{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 24px;
     color: #FFFFFF;
     letter-spacing: 0;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
@@ -80,7 +80,7 @@ body{font-family: 'Nunito', sans-serif;}
 .the-bar .info-holder h2 span:last-child{}
 .the-bar .info-holder p{
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 22px;
     color: #232323;
     letter-spacing: 0;
@@ -233,7 +233,7 @@ header nav a{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 18px;
-    color: #376FA0 !important;
+    color: #376fa0 !important;
     letter-spacing: 0;
     margin-right: 24px;
     text-decoration: none !important;
@@ -269,7 +269,7 @@ header .nav-trigger i:after{
 }
 header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: absolute;background: #376FA0;width:100%;height: 4px;border-radius: 40px;display: block;-webkit-transition: all .25s ease;-o-transition: all .25s ease;transition: all .25s ease;}
 
-.the-venue{background: url(../images/venue-bg.png) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
+.the-venue{/* background: url(../images/venue-bg.png) no-repeat center center; */background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;background: -o-linear-gradient(top, #14243c,#050f1d);background: -webkit-gradient(linear, left top, left bottom, from(#14243c),to(#050f1d));background: linear-gradient(180deg, #14243c,#050f1d);}
 .become-sponsor{background: url(../images/become-sponsor-bg.jpg) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
 .get-tickets{background: url(../images/ticket-bg.jpg) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
 .financial-aid{background: url(../images/financial-bg.jpg) no-repeat center center;background-size: cover;padding: 140px 0;border-bottom: 4px solid #FDD140;}
@@ -277,7 +277,7 @@ header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: a
 .module-content h2{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 30px;
     color: #FFFFFF;
     letter-spacing: 0;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
@@ -286,10 +286,12 @@ header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: a
 .module-content p, .module-content li{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: #FFFFFF;
     letter-spacing: 0;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    margin-bottom: 20px;
+    line-height: 26px;
 }
 .module-content a{}
 .module-content .btn.secondary{
@@ -315,12 +317,14 @@ header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: a
     border: 4px solid #FFFFFF;
     margin: 20px 10px 0px 0;
 }
-.take-part{background: url(../images/apply-bg.png) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;}
+.take-part{background: url(../images/apply-bg.png) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;background: -webkit-gradient(linear, left top, left bottom, from(#0c1b2f), to(#123a5d));background: -o-linear-gradient(top, #0c1b2f, #123a5d);background: linear-gradient(180deg, #0c1b2f, #123a5d);}
 .the-venue .venue{}
 .the-venue .venue img{
     width: 100%;
-    border: 4px solid #fff;
-    border-radius: 4px;
+    border-radius: 12px;
+    border: 2px solid #FDD140;
+    -webkit-box-shadow: 0 2px 18px -2px #fdd1405c;
+            box-shadow: 0 2px 18px -2px #fdd1405c;
 }
 .the-venue .venue span{
     font-family: 'Nunito', sans-serif;
@@ -338,7 +342,7 @@ header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: a
 footer{
     background: #fdd140;
     -webkit-box-shadow: 0 3px 14px 0 rgba(0,0,0,0.07);
-            box-shadow: 0 3px 14px 0 rgba(0,0,0,0.07);
+    box-shadow: 0 3px 14px 0 rgba(0,0,0,0.07);
     padding: 30px 0 40px;
 }
 footer .logo{
@@ -425,33 +429,42 @@ footer nav a:last-child{
     margin: 10px 0;
 }
 
-.keynote-speakers{background: url(../images/keynote-bg.jpg) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;}
+.keynote-speakers{background: url(../images/keynote-bg.jpg) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;background: -o-linear-gradient(top, #376fa0,#0c1b2f);background: -webkit-gradient(linear, left top, left bottom, from(#376fa0),to(#0c1b2f));background: linear-gradient(180deg, #376fa0,#0c1b2f);}
 .keynote-speakers .speakers{
-    margin: 70px 0 0 0;
+    margin: 32px 0 0 0;
 }
 .keynote-speakers .speaker{
     font-size: 0;
     margin-bottom: 60px;
+    width: 100%;
+    float: none;
+    background: #ffffff21;
+    padding: 16px;
+    border-radius: 41px 8px 8px 41px;
+    -webkit-box-shadow: 0 6px 10px -4px #09274240;
+            box-shadow: 0 6px 10px -4px #09274240;
 }
 .keynote-speakers .speaker:last-child{margin-bottom: 0;}
 .keynote-speakers .speaker img{
-    width: 145px;
+    width: 160px;
     display: inline-block;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
 .keynote-speakers .speaker .info{
     display: inline-block;
-    width: calc(100% - 145px);
+    width: calc(100% - 160px);
     padding: 0 45px 0 25px;
+    vertical-align: middle;
 }
 .keynote-speakers .speaker .info h3{
     font-size: 24px;
     color: #fff;
     margin: 15px 0 10px;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    font-weight: 600;
 }
 .keynote-speakers .speaker .info p{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
@@ -459,7 +472,7 @@ footer nav a:last-child{
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 }
 
-.sponsors{background: url(../images/sponsor-bg.jpg) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;}
+.sponsors{/* background: url(../images/sponsor-bg.jpg) no-repeat center center; */background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;background: -o-linear-gradient(top, #14243c,#050f1d);background: -webkit-gradient(linear, left top, left bottom, from(#14243c),to(#050f1d));background: linear-gradient(180deg, #14243c,#050f1d);}
 .sponsors .sponsor-list{}
 .sponsors .sponsor{text-decoration: none !important;vertical-align: top;}
 .sponsors .sponsor h3{
@@ -621,17 +634,17 @@ footer nav a:last-child{
 }
 
 .schedule{
-    background: -webkit-gradient(linear, left top, left bottom, from(#0c162b), to(#00030a));
-    background: -o-linear-gradient(top, #0c162b, #00030a);
-    background: linear-gradient(180deg, #0c162b, #00030a);
     padding: 90px 0;
     border-bottom: 4px solid #FDD140;
+    background: -o-linear-gradient(top, #f2f8ff, #376fa0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2f8ff), to(#376fa0));
+    background: linear-gradient(180deg, #f2f8ff, #376fa0);
 }
 .schedule .tabs-holder{
     margin: 40px 0 0 0;
 }
 .schedule .nav-tabs{
-    border-color: #d1ac3321;
+    border-color: #20548230;
     text-align: center;
 }
 .schedule .nav-tabs li{
@@ -643,30 +656,33 @@ footer nav a:last-child{
     /* color: #000; */
     /* background: #fff !important; */
     border-top: none;
-    border-bottom-color: #d1ac33;
+    border-bottom-color: #205482;
     color: #fff;
     border-left: none;
     border-right: none;
-    color: #d1ac33;
+    color: #205482;
     opacity: 1;
+    font-weight: 700;
+    border-bottom-width: 3px;
 }
 .schedule .nav-tabs li a{
     font-size: 24px;
-    color: #fff;
+    color: #205482;
     background: transparent !important;
     -webkit-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
     border: none;
     border-bottom: 1px solid transparent;
-    opacity: .75;
+    opacity: 0.8;
     margin: 0 14px;
+    border-bottom-width: 3px;
 }
 .schedule .nav-tabs li a:hover, .schedule .nav-tabs li a:focus{
     border-left: none;
     border-top: none;
     border-right: none;
-    border-bottom-color: #d1ac33;
+    border-bottom-color: #205482;
 }
 .schedule .tab-content{}
 .schedule .tab-content .tab-pane{
@@ -676,46 +692,69 @@ footer nav a:last-child{
 .schedule .tab-content .tab-pane.active{}
 .schedule .tab-pane{}
 .schedule .tab-pane .time{
-    color: #fff;
+    color: #1e4b73;
     font-size: 18px;
-    margin: 20px 0 20px;
+    margin: 0;
     padding-left: 24px;
-    border-bottom: 1px solid #d1ac34;
+    border-bottom: 1px solid #1e4b73;
     padding-left: 0;
     padding-bottom: 6px;
+    font-weight: 700;
 }
 .schedule .tab-pane .talk{
     padding: 0 16px;
     float: none;
     display: inline-block;
     vertical-align: top;
+    width: 100%;
+    background: #ffffffad;
+    border-radius: 44px;
+    margin-bottom: 24px;
+    padding: 24px;
+    -webkit-box-shadow: 0 6px 10px -4px #376fa00f;
+            box-shadow: 0 6px 10px -4px #376fa00f;
+    border: 2px solid #fff;
+    border-radius: 8px 8px 8px 44px;
 }
+.schedule .tab-pane .talk .details-btn{font-family: 'Nunito', sans-serif;font-weight: 600;font-size: 16px;color: #FFFFFF;letter-spacing: 0;background: #376FA0;border-radius: 4px;padding: 12px 60px;border: 2px solid #FFFFFF;margin: 14px 0 0px 0;display: block;/* width: 170px; */text-align: center;height: auto;text-decoration: none !important;background: #FDD140;color: #232323;-webkit-box-shadow: 0 4px 6px -3px #0000002b;box-shadow: 0 4px 6px -3px #0000002b;position: absolute;top: 50%;right: 0;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);margin: 0;}
 .schedule .tab-pane .content{
     font-size: 0;
     padding-right: 24px;
     margin-bottom: 32px;
+    margin-bottom: 0;
+    margin: 20px 0 0;
+    position: relative;
 }
 .schedule .tab-pane .content img{
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     display: inline-block;
 }
 .schedule .tab-pane .content .desc{
     display: inline-block;
-    width: calc(100% - 100px);
-    color: #fff;
-    font-size: 18px;
+    width: calc(100% - 160px);
+    color: #232323;
+    font-size: 24px;
     vertical-align: middle;
-    padding-left: 12px;
+    padding-left: 24px;
     font-weight: 700;
     line-height: 1.25em;
+    margin: 0;
+    max-width: calc(100% - (160px + 210px));
 }
 .schedule .tab-pane .content .desc span{
     display: block;
-    margin: 6px 0 0 0;
-    font-weight: 400;
-    font-size: 15px;
+    margin: 12px 0 0 0;
+    font-weight: 600;
+    font-size: 18px;
 }
+.schedule .tab-pane .content .desc span:last-of-type{
+    margin: 0;
+    font-weight: 400;
+}
+
+.schedule .module-content h2{color:#333;text-shadow: none;}
+.schedule .module-content p{color:#333;text-shadow: none;}
 
 /* 
 * Media Queries
@@ -737,6 +776,25 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 992px) {
+	.schedule{padding: 45px 0;}
+	.schedule .tab-pane .content img{vertical-align: top;}
+	.schedule .tab-pane .talk .details-btn{
+    position: static;
+    width: 170px;
+    -webkit-transform: initial;
+        -ms-transform: initial;
+            transform: initial;
+    height: 45px;
+    padding: 8px 0;
+    top: initial;
+    margin: 12px 0 0 0;
+    font-size: 16px;
+}
+	.schedule .tab-pane .content .desc{
+    width: calc(100% - 160px);
+    max-width: none;
+    font-size: 22px;
+}
     .sponsors .tier-1 .sponsor{
     padding: 0;
     margin-bottom: 60px;
@@ -863,6 +921,24 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 768px) {
+	.schedule .nav-tabs li a{
+    font-size: 22px;
+    margin: 0;
+}
+	.schedule .tab-pane .talk .details-btn{width:100%;border-width: 1px;padding: 11px 0;}
+	.schedule .tab-pane .content .desc{font-size: 18px;}
+	.schedule .tab-pane .content .desc span{font-size: 14px;}
+	.schedule .tab-pane .content{padding-right:0;}
+	.schedule .tab-pane .talk{border-radius: 8px;padding: 14px;}
+	.schedule .tab-pane .content img{
+    width: 80px;
+    height: 80px;
+}
+	.schedule .tab-pane .content .desc{
+    width: calc(100% - 80px);
+    padding-left: 12px;
+    font-size: 16px;
+}
 
     .sponsors .tier-1{
     margin: 40px 0 30px;
@@ -877,11 +953,12 @@ footer nav a:last-child{
     .sponsors .tier-2 .sponsor{
     width: 50%;
 }
-    .become-sponsor{padding: 75px 0;}
-    .keynote-speakers{padding: 75px 0;}
+    .become-sponsor{padding: 45px 0;}
+    .keynote-speakers{padding: 45px 0;}
     .keynote-speakers .speakers{margin: 45px 0;}
     .keynote-speakers .speaker{
     margin-bottom: 40px;
+    border-radius: 41px 8px 8px 8px;
 }
     .keynote-speakers .speaker img{
     display: block;
@@ -905,8 +982,8 @@ footer nav a:last-child{
     .module-content p{
     font-size: 16px;
 }
-    .the-venue{padding: 75px 0px;}
-    .take-part{padding: 75px 0px;}
+    .the-venue{padding: 60px 0px;}
+    .take-part{padding: 45px 0px;}
 
 
     .description{padding: 75px 0;}
