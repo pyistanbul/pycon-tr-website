@@ -459,6 +459,34 @@ footer nav a:last-child{
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 }
 
+.organizers {}
+.organizers .picture {
+    text-align: center;
+}
+.organizers .name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+.organizers .responsibility {
+    text-align: center;
+}
+.organizers .row .person {
+}
+.organizers .row .header {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.organizers .row .person .panel {
+    margin: 10px;
+}
+.organizers .row .person .panel .panel-body img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
 .sponsors{background: url(../images/sponsor-bg.jpg) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;}
 .sponsors .sponsor-list{}
 .sponsors .sponsor{text-decoration: none !important;vertical-align: top;}
