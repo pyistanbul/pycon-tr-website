@@ -194,8 +194,8 @@ body{font-family: 'Nunito', sans-serif;}
 
 header{
     background: #FFFFFF;
-    -webkit-box-shadow: 0 10px 15px 0px rgba(0, 0, 0, .55);
-            box-shadow: 0 10px 15px 0px rgba(0, 0, 0, .55);
+    -webkit-box-shadow: 0 10px 15px 0px rgba(0, 0, 0, .17);
+    box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.17);
     padding: 20px 0;
     position: relative;
     z-index: 5;
