@@ -274,7 +274,7 @@ header .nav-trigger i:after, header .nav-trigger i:before{content:'';position: a
 /*.become-sponsor{background: url(../images/become-sponsor-bg.webp) no-repeat center center;background-size: cover;}*/
 /*.no-webp .become-sponsor{background: url(../images/become-sponsor-bg.jpg) no-repeat center center;background-size: cover;}*/
 
-.get-tickets{padding: 140px 0;background: -webkit-gradient(linear, left bottom, left top, from(#0c1b2f), to(#123a5d));background: -webkit-gradient(linear, left bottom, left top, from(#376fa0), to(hsl(207, 70%, 20%)));z-index: 10;-webkit-box-shadow: 0 20px 29px -17px #356c9bb5;box-shadow: 0 20px 29px -17px #356c9bb5;}
+.get-tickets{padding: 140px 0;background: -webkit-gradient(linear, left bottom, left top, from(#0c1b2f), to(#123a5d));background: -webkit-gradient(linear, left bottom, left top, from(#376fa0), to(hsl(207, 70%, 20%)));z-index: 10;-webkit-box-shadow: 0 20px 29px -17px #356c9bb5;box-shadow: 0 20px 29px -17px #356c9bb5;position: relative;width: 98%;margin-left: 1%;}
 /*.get-tickets{background: url(../images/ticket-bg.webp) no-repeat center center;background-size: cover;}*/
 /*.no-webp .get-tickets{background: url(../images/ticket-bg.jpg) no-repeat center center;background-size: cover;}*/
 
@@ -976,7 +976,7 @@ footer nav a:last-child{
 }
     .module-content .btn{font-size: 18px;padding: 18px 44px;width: 100%;}
     .get-tickets, .schedule, .keynote-speakers, .sponsors, .become-sponsor, .the-venue, .take-part, .financial-aid{}
-    .get-tickets{padding: 75px 0;}
+    .get-tickets{padding: 75px 0;width: 100%;margin: 0;}
     .schedule .nav-tabs li a{
     font-size: 22px;
     margin: 0;
