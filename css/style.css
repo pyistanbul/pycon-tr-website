@@ -491,7 +491,35 @@ footer nav a:last-child{
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 }
 
-.sponsors{background-size: cover;padding: 180px 0 120px;background: -o-linear-gradient(top, #14243c,#050f1d);background: -webkit-gradient(linear, left top, left bottom, from(#14243c),to(#050f1d));background: linear-gradient(180deg, #14243c,#050f1d);z-index: 7;-webkit-box-shadow: 0 20px 29px -17px #0000003b;box-shadow: 0 20px 29px -17px #0000003b;}
+.organizers {}
+.organizers .picture {
+    text-align: center;
+}
+.organizers .name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+.organizers .responsibility {
+    text-align: center;
+}
+.organizers .row .person {
+}
+.organizers .row .header {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.organizers .row .person .panel {
+    margin: 10px;
+}
+.organizers .row .person .panel .panel-body img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.sponsors{padding: 180px 0 120px;background: -o-linear-gradient(top, #14243c,#050f1d);background: -webkit-gradient(linear, left top, left bottom, from(#14243c),to(#050f1d));background: linear-gradient(180deg, #14243c,#050f1d);z-index: 7;-webkit-box-shadow: 0 20px 29px -17px #0000003b;box-shadow: 0 20px 29px -17px #0000003b;}
 .sponsors .sponsor-list{}
 .sponsors .sponsor{text-decoration: none !important;vertical-align: top;}
 .sponsors .sponsor h3{
