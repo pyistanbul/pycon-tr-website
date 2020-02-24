@@ -470,6 +470,7 @@ footer nav a:last-child{
 }
 .organizers .responsibility {
     text-align: center;
+    font-size: 13px;
 }
 .organizers .row .person {
 }
@@ -484,7 +485,7 @@ footer nav a:last-child{
 }
 .organizers .row .person .panel .panel-body img {
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin: 0 auto 10px;
 }
 
 .sponsors{background: url(../images/sponsor-bg.jpg) no-repeat center center;background-size: cover;padding: 120px 0;border-bottom: 4px solid #FDD140;}
