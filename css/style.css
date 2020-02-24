@@ -502,6 +502,7 @@ footer nav a:last-child{
 }
 .organizers .responsibility {
     text-align: center;
+    font-size: 13px;
 }
 .organizers .row .person {
 }
@@ -516,7 +517,7 @@ footer nav a:last-child{
 }
 .organizers .row .person .panel .panel-body img {
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin: 0 auto 10px;
 }
 
 .sponsors{padding: 180px 0 120px;background: -o-linear-gradient(top, #14243c,#050f1d);background: -webkit-gradient(linear, left top, left bottom, from(#14243c),to(#050f1d));background: linear-gradient(180deg, #14243c,#050f1d);z-index: 7;-webkit-box-shadow: 0 20px 29px -17px #0000003b;box-shadow: 0 20px 29px -17px #0000003b;}
