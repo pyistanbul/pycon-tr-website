@@ -9,6 +9,18 @@ img{display: block;max-width: 100%;height: auto;}
 
 body{font-family: 'Nunito', sans-serif;}
 
+.important-announcement{
+    background: red;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.important-announcement a{
+    color: white;
+    text-decoration: underline;
+}
+
 .description{padding: 175px 0 175px;background: -webkit-gradient(linear, left bottom, left top, from(#0c1b2f), to(#123a5d));}
 .description .container{
     
