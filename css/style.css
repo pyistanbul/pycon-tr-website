@@ -10,7 +10,7 @@ img{display: block;max-width: 100%;height: auto;}
 body{font-family: 'Nunito', sans-serif;}
 
 .important-announcement{
-    background: red;
+    background: #b93030;
     color: white;
     padding: 30px;
     text-align: center;
@@ -460,7 +460,7 @@ footer nav a:last-child{
     margin: 10px 0;
 }
 
-.keynote-speakers{padding: 180px 0 120px;background: -o-linear-gradient(top, #376fa0,#0c1b2f);background: -o-linear-gradient(bottom, #376fa0,#0c1b2f);background: -webkit-gradient(linear, left bottom, left top, from(#376fa0),to(#0c1b2f));background: linear-gradient(0deg, #376fa0,#0c1b2f);z-index: 8;-webkit-box-shadow: 0 20px 29px -17px #0000003b;box-shadow: 0 20px 29px -17px #0000003b;}
+.keynote-speakers{padding: 140px 0;background: -webkit-gradient(linear, left bottom, left top, from(#0c1b2f), to(#123a5d));background: -webkit-gradient(linear, left bottom, left top, from(#376fa0), to(hsl(207, 70%, 20%)));z-index: 10;-webkit-box-shadow: 0 20px 29px -17px #356c9bb5;box-shadow: 0 20px 29px -17px #356c9bb5;position: relative;width: 98%;margin-left: 1%;}
 .keynote-speakers .speakers{
     margin: 32px 0 0 0;
 }
