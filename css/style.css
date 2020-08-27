@@ -762,6 +762,9 @@ footer nav a:last-child{
     padding-bottom: 6px;
     font-weight: 700;
 }
+.schedule .tab-pane .time .note{
+    float: right;
+}
 .schedule .tab-pane .talk{
     padding: 0 16px;
     float: none;
@@ -777,41 +780,64 @@ footer nav a:last-child{
     border: 2px solid #fff;
     border-radius: 8px 8px 8px 44px;
 }
-.schedule .tab-pane .talk .details-btn{font-family: 'Nunito', sans-serif;font-weight: 600;font-size: 18px;color: #FFFFFF;letter-spacing: 0;background: #376FA0;border-radius: 4px;padding: 12px 60px;border: 2px solid #FFFFFF;margin: 14px 0 0px 0;display: block;text-align: center;height: auto;text-decoration: none !important;background: #FDD140;color: #232323;-webkit-box-shadow: 0 4px 6px -3px #0000002b;box-shadow: 0 4px 6px -3px #0000002b;position: absolute;top: 50%;right: 0;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);margin: 0;}
+.schedule .tab-pane .talk.half{
+    width: 50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+.schedule .tab-pane .talk.half:nth-child(2n){border-top-left-radius: 0;border-bottom-left-radius: 0;border-right: 2px solid #fff;border-bottom-right-radius: 8px;border-top-right-radius: 8px;}
+.schedule .tab-pane .talk .details-btn{font-family: 'Nunito', sans-serif;font-weight: 600;font-size: 18px;color: #FFFFFF;letter-spacing: 0;background: #376FA0;border-radius: 4px;padding: 12px 60px;border: 2px solid #FFFFFF;margin: 14px 0 0px 0;display: block;text-align: center;height: auto;text-decoration: none !important;background: #FDD140;color: #232323;-webkit-box-shadow: 0 4px 6px -3px #0000002b;box-shadow: 0 4px 6px -3px #0000002b;position: absolute;top: 50%;right: 0;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);margin: 0;display: none;}
 .schedule .tab-pane .content{
     font-size: 0;
-    padding-right: 24px;
+    padding-right: 0;
     margin-bottom: 32px;
     margin-bottom: 0;
     margin: 20px 0 0;
     position: relative;
 }
 .schedule .tab-pane .content img{
-    width: 140px;
-    height: 140px;
     display: inline-block;
+    width: 100%;
+    border-radius: 26px;
+    border: 2px solid #fff;
 }
+.schedule .tab-pane .content .cover{
+    display: inline-block;
+    width: 140px;
+}
+.schedule .tab-pane .content .cover .person{}
 .schedule .tab-pane .content .desc{
     display: inline-block;
-    width: calc(100% - 160px);
+    width: 100%;
     color: #232323;
-    font-size: 24px;
-    vertical-align: middle;
-    padding-left: 24px;
+    font-size: 20px;
+    vertical-align: top;
+    padding-left: 16px;
     font-weight: 700;
     line-height: 1.25em;
     margin: 0;
-    max-width: calc(100% - (160px + 210px));
+    max-width: calc(100% - 140px);
+    padding-top: 16px;
 }
 .schedule .tab-pane .content .desc span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: block;
+    margin-top: 6px;
+}
+.schedule .tab-pane .cover span{
     display: block;
     margin: 12px 0 0 0;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
 }
-.schedule .tab-pane .content .desc span:last-of-type{
+.schedule .tab-pane .cover span:last-of-type{
     margin: 0;
     font-weight: 400;
+    font-size: 14px;
 }
 
 .schedule .module-content h2, .become-sponsor .module-content h2, .financial-aid .module-content h2 {color:#333;text-shadow: none;}
@@ -844,6 +870,7 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 992px) {
+
     .schedule{}
     .schedule .tab-pane .content img{vertical-align: top;}
     .schedule .tab-pane .talk .details-btn{
@@ -985,6 +1012,25 @@ footer nav a:last-child{
     footer .logos{
         text-align: center;
     }
+    .schedule .nav-tabs li a{
+    font-size: 18px;
+    margin: 0;
+}
+    .schedule .tab-pane .talk .details-btn{width:100%;border-width: 1px;padding: 11px 0;}
+    .schedule .tab-pane .cover{font-size: 18px;}
+    .schedule .tab-pane .cover span{font-size: 14px;}
+    .schedule .tab-pane .content{padding-right:0;}
+    .schedule .tab-pane .talk{border-radius: 8px !important;padding: 12px;width: 100% !important;margin-bottom: 12px;border-width: 0 !important;}
+    .schedule .tab-pane .content img{
+    /* width: 80px; */
+    /* height: 80px; */
+}
+    .schedule .tab-pane .content .desc{
+    width: calc(100% - 140px);
+    padding-left: 12px;
+    font-size: 16px;
+}
+
 }
 
 @media only screen and (max-width : 768px) {
@@ -1016,25 +1062,8 @@ footer nav a:last-child{
 }
     .module-content .btn{font-size: 18px;padding: 18px 44px;width: 100%;}
     .get-tickets, .schedule, .keynote-speakers, .sponsors, .become-sponsor, .the-venue, .take-part, .financial-aid{}
-    .get-tickets{padding: 75px 0;width: 100%;margin: 0;}
-    .schedule .nav-tabs li a{
-    font-size: 22px;
-    margin: 0;
-}
-    .schedule .tab-pane .talk .details-btn{width:100%;border-width: 1px;padding: 11px 0;}
-    .schedule .tab-pane .content .desc{font-size: 18px;}
-    .schedule .tab-pane .content .desc span{font-size: 14px;}
-    .schedule .tab-pane .content{padding-right:0;}
-    .schedule .tab-pane .talk{border-radius: 8px;padding: 14px;}
-    .schedule .tab-pane .content img{
-    width: 80px;
-    height: 80px;
-}
-    .schedule .tab-pane .content .desc{
-    width: calc(100% - 80px);
-    padding-left: 12px;
-    font-size: 16px;
-}
+    .get-tickets{padding: 75px 0 25px;width: 100%;margin: 0;}
+    
 
     .sponsors .tier-1{
     margin: 40px 0 30px;
@@ -1169,6 +1198,27 @@ footer nav a:last-child{
 }
 
 @media only screen and (max-width : 480px) {
+    .schedule .tab-pane .time{
+    font-size: 16px;
+}
+    .schedule .tab-pane .content .cover .person{
+    display: inline-block;
+    width: calc(100% - 75px);
+    text-align: left;
+    vertical-align: top;
+    padding-top: 4px;
+}
+    .schedule .tab-pane .cover span{
+    margin-top: 0;
+    text-align: left;
+    padding-left: 4px;
+}
+    .schedule .tab-pane .content .desc{
+    width: 100%;
+    padding: 16px 0 0 0;
+}
+    .schedule .tab-pane .content .cover{width: 100%;margin: 0 auto;text-align: left;display: block;}
+    .schedule .tab-pane .content img{width:70px;display: inline-block;vertical-align: middle;}
     .bottom-logos .logos a:after{display: none;}
     .bottom-logos .logos .cmple{
     width: 200px;
